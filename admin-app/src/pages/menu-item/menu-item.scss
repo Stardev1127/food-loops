@@ -1,0 +1,110 @@
+#menuDetail .l-wrapper {
+  width: 45%;
+  min-height: 345px;
+  margin-bottom: 15px;
+}
+#menuDetail .l-wrapper .i-wrapper img {
+  border-radius: 10px;
+}
+#menuDetail .r-wrapper {
+  width: 55%;
+}
+
+#menuDetail .r-wrapper .n-circle {
+  height: 55px;
+  width: 55px;
+  border: 4px solid #47b581;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 13px;
+  line-height: 48px;
+  margin: 0 auto;
+}
+
+#menuDetail .d-flex {
+  flex-wrap: wrap;
+
+  .eq-w-child > * {
+    flex-basis: 11%;
+    flex-grow: 0;
+    margin-bottom: 5px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  #menuDetail .l-wrapper,
+  #menuDetail .r-wrapper {
+    width: 100%;
+  }
+}
+
+/*
+* Expicitly for this page use
+* Classes are writting in md prefix i.e. md-...
+*/
+#menuDetail .md-cate {
+  margin: 15px 0;
+}
+#menuDetail .md-cate > span {
+  margin-right: 4px;
+}
+#menuDetail h4 {
+  margin-bottom: 5px;
+}
+
+#menuDetail .float-btn {
+  z-index: 10;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 50%;
+  padding: 11px 13px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+#menuDetail .l-wrapper .i-wrapper {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+#menuDetail .l-wrapper .i-wrapper .i-rem-btn {
+  border-radius: 50%;
+  font-weight: 700;
+  padding: 4px 11px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+#menuDetail .l-wrapper .image-drop {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #eee;
+  cursor: pointer;
+  outline: 0;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+#menuDetail .l-wrapper .image-drop .err-msg {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-weight: 700;
+}
+
+#menuDetail .l-wrapper .drop-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+}
+#menuDetail .l-wrapper .drop-border-color {
+  border: 2px solid #47b581;
+}

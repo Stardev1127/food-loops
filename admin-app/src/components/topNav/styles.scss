@@ -1,0 +1,17 @@
+@import '../../_theming';
+
+.nav-top {
+  .nav-avatar {
+    width: 30px;
+    height: 30px;
+    background: $primary-color;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+    border-radius: 50%;
+    margin-right: 10px;
+    line-height: 30px;
+    font-size: 16px;
+    display: inline-block;
+  }
+}
